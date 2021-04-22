@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+{% extends "login_form/base.html" %}
+{% block body_block %}
+<div class ="jumbotran">
+    <h1> Welcome to Home Page showing template inheritance</h1>
+    <h2>{{text|cut:'hello'}}</h2>
+    <h3>{{number|add:"35"}}</h3>
+
+</div>
+
+{% endblock %}
